@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-docker-test",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "docker run -p 8080:5000 mrzeal025/nodejsdocker"
+  },
+  "dependencies": {
+    "express": "*"
+  }
+}
